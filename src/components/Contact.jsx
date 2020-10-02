@@ -44,7 +44,6 @@ const Contact = () => {
                     value={data.fullname}
                     onChange={InputEvent}
                     placeholder="Enter Full Name"
-                    required
                   />
                 </div>
                 <div className="form-group mt-2">
@@ -57,7 +56,6 @@ const Contact = () => {
                     value={data.phone}
                     onChange={InputEvent}
                     placeholder="Enter your mobile no"
-                    required
                   />
                 </div>
                 <div className="form-group mt-2">
@@ -70,7 +68,6 @@ const Contact = () => {
                     value={data.email}
                     onChange={InputEvent}
                     placeholder="name@example.com"
-                    required
                   />
                 </div>
 
